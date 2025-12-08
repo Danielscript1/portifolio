@@ -1,0 +1,28 @@
+.skill-card {
+  position: relative;
+  overflow: hidden;
+
+  &:hover .g-card {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
+
+.g-card {
+  // z-index: 10;
+  position: absolute;
+  background: radial-gradient(circle at center, rgba(var(--g-card-color), 0.8) 0, rgba(var(--g-card-color), 0) 100%) no-repeat;
+  // mix-blend-mode: var(--blending);
+
+  width: 200px;
+  height: 200px;
+  top: calc(0% - 200px /2);
+  right: calc(0% - 200px /2);
+
+  transform-origin: center center;
+  // animation: pulse 10s ease infinite;
+
+  opacity: 0;
+  filter: blur(70px);
+  transition: opacity 0.5s ease-in-out;
+}

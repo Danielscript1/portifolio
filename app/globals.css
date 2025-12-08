@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #141414;
+  --foreground: #1E1E20;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --background: #131313; */
+    --background: #141414;
+    --foreground: #1E1E20;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
