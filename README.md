@@ -1,37 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Olá! Eu sou o Daniel Sousa  
+### 🚀 Desenvolvedor Full Stack | React | Next.js | Node.js | AWS
 
-## Getting Started
+Sou apaixonado por tecnologia, performance e boas práticas de desenvolvimento.  
+Atuo no desenvolvimento de soluções escaláveis, com foco em:
 
-First, run the development server:
+✅ Design Systems  
+✅ Arquitetura Front-end  
+✅ BFF (Backend for Frontend)  
+✅ Microservices  
+✅ Performance Web  
+✅ Integração Front-end/Back-end
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Desenvolvedor Full Stack**, contribuindo para produtos de alta performance e grande escala.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<div style="display: inline_block"><br>
 
-## Learn More
+### Front-end
+<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg">
+<img height="40" src="https://img.icons8.com/color/48/undefined/typescript.png"/>
+<img height="40" src="https://img.icons8.com/color/48/undefined/javascript--v1.png"/>
+<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+<img height="40" src="https://img.icons8.com/color/48/undefined/sass.png"/>
+<img width="40" height="40" src="https://img.icons8.com/plasticine/100/tailwind_css.png" alt="tailwind_css"/>
 
-To learn more about Next.js, take a look at the following resources:
+### Back-end
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">
+<img height="40" src="https://img.icons8.com/windows/256/django.png">
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Infra / DevOps
+<img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+<img height="40" src="https://img.icons8.com/color/48/redis.png"/>
+<img height="40" src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000"/>
+<img width="48" height="48" src="https://img.icons8.com/color/48/microsoft-sql-server.png" alt="microsoft-sql-server"/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+</div>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 O que eu faço hoje
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# my-new-portifolio
+🚀 Desenvolvimento e evolução de Design Systems  
+🔗 Implementação de BFF (Backend for Frontend)  
+🧱 Construção de microserviços robustos  
+⚡ Otimização de performance com Redis e Cloudflare  
+🌐 Integração completa entre Front-end e Back-end  
+☁️ Ambientes AWS escaláveis  
+🐳 Containers com Docker
+
+---
+
+## 📫 Onde me encontrar?
+
+<a href="mailto:danielsousadelira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/daniel-sousa" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+
+---
+
+⭐ *Sempre aprendendo, construindo e evoluindo!*
