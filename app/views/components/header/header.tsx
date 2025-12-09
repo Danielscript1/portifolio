@@ -20,8 +20,22 @@ export const Header = () => {
 
   const scrollToSection = (sectionName: string) => {
     const section = document.getElementById(sectionName);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+    const scrollContainer = document.querySelector('.children-container');
+    
+    if (section && scrollContainer) {
+      const containerRect = scrollContainer.getBoundingClientRect();
+      const sectionRect = section.getBoundingClientRect();
+      const offset = 20; // Offset para não colar no topo
+      
+      const scrollTop = scrollContainer.scrollTop + sectionRect.top - containerRect.top - offset;
+      
+      scrollContainer.scrollTo({
+        top: scrollTop,
+        behavior: 'smooth'
+      });
+    } else if (section) {
+      // Fallback caso não encontre o container
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
 
@@ -142,7 +156,7 @@ export const Header = () => {
             className="max-[1000px]:hidden"
             onClick={() => {
               scrollToSection("contact-section");
-            }}>CONTATO</button>
+            }}>CONTATOS</button>
           <button
             className={`hidden bg-white w-[20px] h-[10px] max-[1000px]:flex transition-all duration-300 ease-in-out transform ${visibleSections[""] ? "w-[40px] opacity-100" : "opacity-50 hover:w-[40px] hover:opacity-100"
               }`}

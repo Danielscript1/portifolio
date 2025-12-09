@@ -36,9 +36,9 @@ export const ProjectsSection = () => {
     }
   }
   return (
-    <div id="projects-section" className="sw-full h-auto flex flex-col justify-start pt-[100px] 2xl:pt-[200px] pb-[100px] items-start font-jersey font-lg text-[#C2C2C2]">
-      <div className="mb-10 font-sm text-[2rem]">PROJETOS</div>
-      <div className="w-full flex flex-wrap justify-between gap-y-10">
+    <div id="projects-section" className="w-full h-auto flex flex-col justify-start pt-[100px] 2xl:pt-[200px] pb-[100px] px-4 sm:px-6 md:px-8 lg:px-0 items-start font-jersey font-lg text-[#C2C2C2]">
+      <div className="mb-10 font-sm text-[1.5rem] sm:text-[2rem]">PROJETOS</div>
+      <div className="w-full flex flex-wrap justify-center sm:justify-between gap-4 sm:gap-6 md:gap-8 lg:gap-y-10">
         {projects.length === 0 ? (
           <>
             <ProjectCard src={Farlinhares} ProjectInfo={{ tecnologies: ["next", "flask","postgresSQL"], name: "Farlinhares", description: "A FAR Linhares LTDA atua no comércio atacadista, com forte especialização na distribuição de produtos naturais, suplementos, alimentos e bebidas." }} link="https://www.farlinhares.com.br/" />
