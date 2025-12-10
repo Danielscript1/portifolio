@@ -16,6 +16,7 @@ import Prisma from "@/public/assets/logos/icons8-prisma-orm.svg"
 import Rabbit from "@/public/assets/logos/rabbitmq-plain-wordmark.svg"
 import Radis from "@/public/assets/logos/icons8-redis.svg"
 import GIT from "@/public/assets/logos/icons8-git.svg"
+import Storybook from "@/public/assets/logos/storybook.svg"
 import { SkillCard } from './skillCard';
 
 export const SkillsSection = () => {
@@ -36,8 +37,9 @@ export const SkillsSection = () => {
           <SkillCard tecnologyInfo={{ name: "PandaCSS", time: "" }} color="255, 99, 71" />
           <SkillCard  src={MaterialUi} tecnologyInfo={{ name: "Material UI", time: "" }} color="0, 176, 255" />
           <SkillCard tecnologyInfo={{ name: "Styled Components", time: "" }} color="219, 112, 147" />
-          <SkillCard tecnologyInfo={{ name: "Design System", time: "" }} color="138, 43, 226" />
           <SkillCard tecnologyInfo={{ name: "Chakra UI", time: "" }} color="60, 179, 113" />
+          <SkillCard tecnologyInfo={{ name: "Design System", time: "" }} color="138, 43, 226" />
+          <SkillCard src={Storybook} tecnologyInfo={{ name: "Storybook", time: "" }} color="138, 43, 226" />
         </div>
       </div>
 
